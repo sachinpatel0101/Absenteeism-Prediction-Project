@@ -24,7 +24,7 @@ Since here we use Logistic Regression to predict absenteeism, we have to classif
 Tools use for project are Python(for data preprocessing and model building), MySQL Workbench( for dumping predicted data to database) and Tableau for visualization and interpretation.
 
 Logistic Regression is used to solve this business problem. Python libraries used are Pandas, NumPy, Sklearn, Pickle and pymysql.
-Then wrote a python script to created a python module which can clean and preprocess data as per requirment and returns the predicted outputs along with preprocessed data in a data set, which is then dumped into MySQL database, from where data is imported to Tableau to create visualizations and data interpretations.
+Then wrote a python script to create a python module which can clean and preprocess data as per requirment and returns the predicted outputs along with preprocessed data in a data set, which is then dumped into MySQL database, from where data is imported to Tableau to create visualizations and data interpretations.
 
 ## TABLEAU DSAHBOARD LINK:
 https://public.tableau.com/app/profile/sachin.patel8488/viz/AbsenteeismAnalysisDashboard/TransportationExpense
