@@ -20,7 +20,7 @@ class absenteeism_model():
             self.scaler = pickle.load(scaler_file)
             self.data = None
             
-    # take a data file (*.csv) and preprocess it in the same way as in the lectures
+    # take a data file (*.csv) and preprocess it
     def load_and_clean_data(self, data_file):
         
         # import the data
